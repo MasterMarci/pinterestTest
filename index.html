@@ -18,6 +18,11 @@ pintrk('page');
 <!-- end Pinterest Tag -->
   <script>
 pintrk('track', 'pagevisit');
+    pintrk('track', 'checkout', {
+value: 100,
+order_quantity: 1,
+currency: 'USD'
+});
 </script>
 </head>
 <body>
