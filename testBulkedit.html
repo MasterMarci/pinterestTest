@@ -1,14 +1,20 @@
 <html>
 <head>
+  <link rel="stylesheet" href="bulkedit.css" type="text/css" charset="utf-8">
 </head>
 
 <body>
   <button>Export</button>
 <div id="fullEdit">
-  <div id="Campaign1" align="left">
+  <div id="Campaign1" class="row">
+    <a>Campaign Name</a>
   <input type="text" size="128"/>
-    <!-- Add properties here -->
     <!-- Make non-mandatory fields hideable -->
+    <!-- Add properties here -->
+    <div class="block">
+      <a>Campaign Objective</a>
+      <input type="text" size="64" />
+    </div>
   <br />
     <button title="Add Campaign">+</button>&nbsp;&nbsp;&nbsp;&nbsp;<button title="Add Ad Group">+</button>
   </div>
