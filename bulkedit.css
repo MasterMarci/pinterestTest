@@ -1,0 +1,9 @@
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.block {
+  min-width: 100px;
+  float: left;
+}
