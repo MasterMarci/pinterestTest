@@ -6,4 +6,5 @@
 .block {
   min-width: 100px;
   float: left;
+  position: relative;
 }
